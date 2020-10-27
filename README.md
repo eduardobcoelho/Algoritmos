@@ -1,2 +1,2 @@
-# Algoritmos
-This repository is turned to my C exercises.
+# List 01
+Sequential list.

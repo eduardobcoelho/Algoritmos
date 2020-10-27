@@ -1,0 +1,1 @@
+Reservar um espaço na memória.

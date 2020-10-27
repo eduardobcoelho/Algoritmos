@@ -1,0 +1,1 @@
+É o tipo de espaço na memoria que você deseja reservar: um inteiro, um float(numeros quebrados), double, etc. 
