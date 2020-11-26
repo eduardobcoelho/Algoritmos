@@ -1,2 +1,2 @@
-# Algoritmos
-This repository is turned to my C exercises.
+# Lista 03
+Array.
