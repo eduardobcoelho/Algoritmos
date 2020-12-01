@@ -19,6 +19,9 @@ int main(int argc, char **argv) {
     int quantidadeArray, maiorElementoDoArray;
     scanf("%d", &quantidadeArray);
     int arrayA[quantidadeArray];
+    for (i = 0; i < quantidadeArray; i++) {
+        scanf("%d", arrayA[i]);
+    }
     maiorElementoDoArray = maiorElementoArray(arrayA, quantidadeArray);
     return 0;
 }
