@@ -1,2 +1,2 @@
-# Algoritmos
-This repository is turned to my C exercises.
+# Teste 02
+Teste.
