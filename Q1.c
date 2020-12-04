@@ -30,7 +30,7 @@ int main(int argc, char **argv) {
     scanf("%[^\n] %[^\n]", primeraString, segundaString);
     ponteiro = meuStrStr(primeraString, segundaString);
     if(ponteiro != NULL ) {
-      printf("%p meu amigo %c\n", ponteiro, *(ponteiro+3));
+      printf("Endereço da ocorrência: %p\nLetra da ocorrência: %c\n", ponteiro, *(ponteiro));
     }
     return 0;
 }
