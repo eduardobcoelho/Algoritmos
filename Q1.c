@@ -7,30 +7,30 @@ char *meuStrStr(const char *s1, const char *s2) {
         if (*s1 == *s2) {
             s1++; s2++;
             cont++;
-            while (*s1 == *s1) {
+            while (*s1 == *s2) {
                 s1++; s2++;
                 cont++;
                 if (cont == tamanhoStringDois) {
                     return s1-cont;
                 }
             }
-        } else if (cont != 0) {
-            printf("%p %c\n", s1, *s1);
-            s1 -= cont;
-            printf("%p %c\n", s1, *s1);
-            s2 -= cont;
-            cont = 0;
-        } else {
-            s1++;
+        } 
+        if(cont != 0) {
+          s1 -= cont;
         }
+        s1++;
+        s2 -= (cont);
+        cont = 0;
     }
-    return 0;
+    return NULL;
 }
 
 int main(int argc, char **argv) {
     char primeraString[20], segundaString[20], *ponteiro;
     scanf("%[^\n] %[^\n]", primeraString, segundaString);
     ponteiro = meuStrStr(primeraString, segundaString);
-    printf("%p meu amigo %c\n", ponteiro, *(ponteiro+1));
+    if(ponteiro != NULL ) {
+      printf("%p meu amigo %c\n", ponteiro, *(ponteiro+3));
+    }
     return 0;
 }
