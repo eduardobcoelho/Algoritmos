@@ -34,13 +34,13 @@ void mostrarREC(NO *atual){
  
 int main () {
    int i;
-   NO *inicio=NULL; //ponteiro para inicio da lista
+   NO *inicio=NULL;
    for(i=0;i<5;i++){
-       inicio=inserirInicioLE(inicio,i); //inserir nós NA Lista Encadeada
+       inicio=inserirInicioLE(inicio,i);
    }
    printf("Lista de todos os números cadastrados\n\n");
-   mostrar(inicio); //chama função NÃO recursiva para mostrar nós da Lista Encadeada
+   mostrar(inicio);
    printf("\n");
    printf("Lista de todos os números cadastrados\n\n");
-   mostrarREC(inicio); //chama função RECURSIVA que VOCÊ VAI DESENVOLVER que mostra os nós da Lista encadeada
+   mostrarREC(inicio);
 }
