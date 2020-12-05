@@ -29,8 +29,6 @@ int main(int argc, char **argv) {
     char primeraString[20], segundaString[20], *ponteiro;
     scanf("%[^\n] %[^\n]", primeraString, segundaString);
     ponteiro = meuStrStr(primeraString, segundaString);
-    if(ponteiro != NULL ) {
-      printf("Endereço da ocorrência: %p\nLetra da ocorrência: %c\n", ponteiro, *(ponteiro));
-    }
+    printf("%p\n", ponteiro);
     return 0;
 }
